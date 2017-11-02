@@ -16,7 +16,7 @@ module('Acceptance: RouteMetaMixin',{
 });
 
 
-test('Sets and clears meta', function(assert) {
+test('xyz Sets and clears meta', function(assert) {
   visit('/route-1');
   andThen(function() {
     assert.equal(
